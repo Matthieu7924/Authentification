@@ -18,6 +18,8 @@ namespace AuthMVC.Models
 
         public virtual Image? Image { get; set; }
 
+        //public Image? image  { get; set; }
+
         [Required]
         [Display(Name = "Prix")]
         [Range(0, 100)]//le prix doirt se situer entre 0 et 100€
