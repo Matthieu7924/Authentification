@@ -16,3 +16,11 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+h1 {
+    background-color: darkgreen;
+    color: ghostwhite;
+    font-size: 5rem;
+    padding: 2rem;
+    font-weight: bolder;
+}

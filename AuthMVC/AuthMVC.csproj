@@ -19,4 +19,9 @@
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.10" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\fruits\images\" />
+    <Folder Include="wwwroot\fruits\videos\" />
+  </ItemGroup>
+
 </Project>
