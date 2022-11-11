@@ -227,6 +227,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Admin/source/repos/AuthMVC/AuthMVC/Views/Role/ListUsers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZVxMaXN0VXNlcnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Admin/source/repos/AuthMVC/AuthMVC/Views/Shared/EditorTemplate/Fruit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVkaXRvclRlbXBsYXRlXEZydWl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -241,6 +245,18 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Admin/source/repos/AuthMVC/AuthMVC/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/source/repos/AuthMVC/AuthMVC/Views/User/CreateUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxDcmVhdGVVc2VyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/source/repos/AuthMVC/AuthMVC/Views/User/DeleteUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxEZWxldGVVc2VyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/source/repos/AuthMVC/AuthMVC/Views/User/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Admin/source/repos/AuthMVC/AuthMVC/Views/_ViewImports.cshtml]
