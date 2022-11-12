@@ -29,7 +29,6 @@ namespace AuthMVC.Controllers
         }
 
         //retourner tous les utilisateurs
-        //[HttpGet]
         public IActionResult ListUsers()
         {
             var users = _userManager.Users;
@@ -40,7 +39,7 @@ namespace AuthMVC.Controllers
 
 
 
-
+        //create role
         [Authorize(Roles = "Admin")]
         [HttpGet]
         public IActionResult CreateRole()
@@ -58,7 +57,7 @@ namespace AuthMVC.Controllers
 
 
 
-
+        //create user
         [Authorize(Roles = "Admin")]
         [HttpGet]
         public IActionResult CreateUser()

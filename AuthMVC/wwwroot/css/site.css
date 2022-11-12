@@ -24,3 +24,27 @@ h1 {
     padding: 2rem;
     font-weight: bolder;
 }
+
+.home{
+    font-size:4rem;
+    background-color:purple;
+    color:deeppink;
+}
+
+.privacy {
+    font-size: 4rem;
+    background-color:greenyellow;
+    color: midnightblue;
+}
+
+.identityAccountLogin {
+    font-size: 4rem;
+    background-color: blue;
+    color: midnightblue;
+}
+
+.fruits {
+    font-size: 4rem;
+    background-color: brown;
+    color: yellow;
+}
