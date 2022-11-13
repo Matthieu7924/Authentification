@@ -48,3 +48,15 @@ h1 {
     background-color: brown;
     color: yellow;
 }
+
+.vrl {
+    font-size: 4rem;
+    background-color: yellow;
+    color: red;
+}
+
+.vri {
+    font-size: 4rem;
+    background-color: yellow;
+    color: blue;
+}
