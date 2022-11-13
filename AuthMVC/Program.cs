@@ -1,18 +1,40 @@
 using AuthMVC.Data;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Options;
 
 var builder = WebApplication.CreateBuilder(args);
 
+
+
+//1ère méthode pour modifier les options paramétrées de la configuration de mots de passe
 builder.Services.Configure<IdentityOptions>(options =>
 {
+    //pour définir la longueur du password
     options.Password.RequiredLength = 10;
+    //pour définir le nombre de caractères uniques
+    options.Password.RequiredUniqueChars = 3;
 });
+
+////2ème méthode pour modifier les options paramétrées de la configuration de mots de passe
+//builder.Services.AddIdentity<IdentityUser, IdentityRole>(options =>
+//{
+//    //pour définir la longueur du password
+//    options.Password.RequiredLength = 12;
+//    //pour définir le nombre de caractères uniques
+//    options.Password.RequiredUniqueChars = 2;
+//}).AddEntityFrameworkStores<ApplicationDbContext>();
+
 
 // Add services to the container.
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(connectionString));
+
+
+
+
+
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
 builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)

@@ -14,6 +14,8 @@ namespace AuthMVC.Controllers
 
 
 
+
+
         public RoleController(RoleManager<IdentityRole>roleManager, UserManager<IdentityUser>userManager)
         {
             _roleManager = roleManager;
@@ -75,7 +77,18 @@ namespace AuthMVC.Controllers
 
 
 
+        //[HttpGet]
+        //public async Task<IActionResult> EditUser(string id)
+        //{
+        //    var user = await _userManager.FindByIdAsync(id);
 
+        //    if(_userManager==null)
+        //    {
+        //        ViewBag.ErrorMessage = $"User with Id ={id} cannot be found";
+        //        return View("Not Found");
+        //    }
+
+        //}
 
 
 
